@@ -1,3 +1,4 @@
+eu\enderix\playTimeOdmeny\commands\ReloadCommand.class
+eu\enderix\playTimeOdmeny\Utils\ConfigUtil.class
 eu\enderix\playTimeOdmeny\PlayTimeOdmeny.class
 eu\enderix\playTimeOdmeny\commands\PlaytimeOdmenaCommand.class
-eu\enderix\playTimeOdmeny\Utils\ConfigUtil.class
