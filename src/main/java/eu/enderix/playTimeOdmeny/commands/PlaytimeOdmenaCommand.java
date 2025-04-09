@@ -73,6 +73,7 @@ public class PlaytimeOdmenaCommand implements CommandExecutor {
 
             boolean rewarded = false;
 
+            // Projít odměny podle hodin
             for (String key : PlayTimeOdmeny.getInstance().getConfig().getConfigurationSection("rewards").getKeys(false)) {
                 int rewardHour = Integer.parseInt(key);
                 if (hours >= rewardHour && !hasReceivedReward(uuid, rewardHour)) {
@@ -95,8 +96,7 @@ public class PlaytimeOdmenaCommand implements CommandExecutor {
             return true;
         }
 
-        // Reload příkaz
-        if (args[0].equalsIgnoreCase("pto-reload")) {
+        if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
             if (sender.hasPermission("playtime.reload")) {
                 reloadConfig();
                 sender.sendMessage(getMessage("reload-message"));
@@ -105,7 +105,6 @@ public class PlaytimeOdmenaCommand implements CommandExecutor {
             }
             return true;
         }
-
         return false;
     }
 
