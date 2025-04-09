@@ -95,18 +95,9 @@ public class PlaytimeOdmenaCommand implements CommandExecutor {
             cooldowns.put(uuid, currentTime);
             return true;
         }
-
-        if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
-            if (sender.hasPermission("playtime.reload")) {
-                reloadConfig();
-                sender.sendMessage(getMessage("reload-message"));
-            } else {
-                sender.sendMessage(getMessage("no-permissions"));
-            }
-            return true;
-        }
         return false;
     }
+
 
 
     private void reloadConfig() {

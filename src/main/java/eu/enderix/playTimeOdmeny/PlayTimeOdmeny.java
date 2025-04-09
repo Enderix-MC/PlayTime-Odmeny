@@ -2,6 +2,7 @@ package eu.enderix.playTimeOdmeny;
 
 import eu.enderix.playTimeOdmeny.Utils.ConfigUtil;
 import eu.enderix.playTimeOdmeny.commands.PlaytimeOdmenaCommand;
+import eu.enderix.playTimeOdmeny.commands.ReloadCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
@@ -28,7 +29,7 @@ public final class PlayTimeOdmeny extends JavaPlugin {
         saveDefaultConfig();
 
         getCommand("playtime-odmena").setExecutor(new PlaytimeOdmenaCommand(plugin, plugin, messages));
-        getCommand("pto-reload").setExecutor(new PlaytimeOdmenaCommand(plugin, plugin, messages));
+        getCommand("pto-reload").setExecutor(new ReloadCommand(plugin, messages));
     }
 
     public static PlayTimeOdmeny getInstance() {
