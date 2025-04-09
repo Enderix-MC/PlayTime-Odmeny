@@ -1,0 +1,25 @@
+cooldown-seconds: 3
+
+# cislo 1,2,3 jsou hodiny, minuty zatim nejsou - noxitt (Enderix Developer)
+
+rewards:
+  1:
+    command: "give %player% diamond 1"
+  2:
+    command: "eco give %player% 500"
+  3:
+    command: "crate givekey %player% vote 1"
+  4:
+    command: "say GG %player% za 4 hodiny!"
+  5:
+    command: "give %player% emerald 1"
+  6:
+    command: "eco give %player% 1000"
+  7:
+    command: "crate givekey %player% rare 1"
+  8:
+    command: "say %player% právě dosáhl 8h!"
+  9:
+    command: "give %player% netherite_ingot 1"
+  10:
+    command: "eco give %player% 5000"

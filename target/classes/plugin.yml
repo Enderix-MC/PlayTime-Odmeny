@@ -1,0 +1,16 @@
+name: PlayTimeOdmeny
+version: '1.0'
+main: eu.enderix.playTimeOdmeny.PlayTimeOdmeny
+api-version: '1.21'
+authors: [ noxitt ]
+depend: [PlaceholderAPI]
+commands:
+  playtime-odmena:
+    description: Získání odměn za odehraný čas
+  pto-reload:
+    description: Reload všech konfigurací a nastavení pluginu
+    permission: playtime.reload
+permissions:
+  playtime.reload:
+    description: Umožňuje reload konfigurací pluginu
+    default: op

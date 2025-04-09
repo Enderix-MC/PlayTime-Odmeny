@@ -1,0 +1,7 @@
+messages:
+  ignore: "ignore - dont delete this message!!!!"
+  no-permissions: "&x&D&0&0&8&F&BE&x&C&3&0&7&F&An&x&B&6&0&5&F&8d&x&A&A&0&4&F&7e&x&9&D&0&3&F&6r&x&9&0&0&1&F&4i&x&8&3&0&0&F&3x &8| &cNa toto nemáš oprávnění!"
+  reload-message: "&x&D&0&0&8&F&BE&x&C&3&0&7&F&An&x&B&6&0&5&F&8d&x&A&A&0&4&F&7e&x&9&D&0&3&F&6r&x&9&0&0&1&F&4i&x&8&3&0&0&F&3x &8| &aUspesne si roloadnul plugin!"
+  NoNew-Rewards: "&x&D&0&0&8&F&BE&x&C&3&0&7&F&An&x&B&6&0&5&F&8d&x&A&A&0&4&F&7e&x&9&D&0&3&F&6r&x&9&0&0&1&F&4i&x&8&3&0&0&F&3x &8| &fZatim na tebe &cnecekaji &fzadne nove odmeny!"
+  reward-recived: "&x&D&0&0&8&F&BE&x&C&3&0&7&F&An&x&B&6&0&5&F&8d&x&A&A&0&4&F&7e&x&9&D&0&3&F&6r&x&9&0&0&1&F&4i&x&8&3&0&0&F&3x &8| &fZiskal jsi odmenu za &d%hodiny% &fhodinu/y!"
+  cooldown: "&x&D&0&0&8&F&BE&x&C&3&0&7&F&An&x&B&6&0&5&F&8d&x&A&A&0&4&F&7e&x&9&D&0&3&F&6r&x&9&0&0&1&F&4i&x&8&3&0&0&F&3x &8| &fMusis vyckat &d%zbyva% &fna to aby sis vyzvedl dalsi odmenu!"
